@@ -22,7 +22,7 @@ const JobOverview = () => {
           <span className="text-lg font-medium">Experience</span>
         </div>
         <div className="flex flex-wrap justify-center">
-          <span className="text-wrap text-3xl	text-center font-light">Associate <br></br> 3+ years</span>
+          <span className="text-wrap text-2xl	text-center font-light">Associate <br></br> 3+ years</span>
         </div>
       </div>
 
@@ -32,7 +32,7 @@ const JobOverview = () => {
           <span className="text-lg font-medium">Software Skills</span>
         </div>
         <div className="flex flex-wrap justify-center">
-          <span className="text-wrap text-3xl	text-center font-light">$55 - $66 <br></br> / hour</span>
+          <span className="text-wrap text-2xl	text-center font-light">$55 - $66 <br></br> / hour</span>
         </div>
       </div>
 
