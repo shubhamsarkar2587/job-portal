@@ -5,9 +5,15 @@ import company from './png/company.png';
 import job from './png/job.png';
 import notification from './png/notification.png';
 import user from './png/user.png';
-
+import back_arrow from './png/back_arrow.png';
+import image1 from './png/image1.png';
+import share from './png/share.png';
+import bookmark from './png/bookmark.png';
 
 export const pngAsset = {
+  global: {
+    back_arrow
+  },
   navbar: {
     logo,
     archslate,
@@ -16,5 +22,10 @@ export const pngAsset = {
     job,
     notification,
     user
+  },
+  CompanyDetail: {
+    image1,
+    share,
+    bookmark
   }
 }

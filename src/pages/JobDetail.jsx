@@ -1,11 +1,15 @@
-import CompanyDetail from "../components/companyDetail/CompanyDetail"
-import Navbar from "../components/navbar/Navbar"
+import BackArrow from "../components/BackArrow"
+import CompanyDetail from "../components/CompanyDetail"
+import Navbar from "../components/Navbar"
 
 const JobDetail = () => {
   return (
     <>
       <Navbar />
-      <CompanyDetail />
+      <div className="w-3/4 m-auto">
+        <BackArrow text={'Back to Jobs'} />
+        <CompanyDetail />
+      </div>
     </>
   )
 }
