@@ -1,5 +1,5 @@
 import BackArrow from "../components/BackArrow"
-import CompanyDetail from "../components/CompanyDetail"
+import CompanyDetail from "../components/jobDetails/CompanyDetail"
 import Navbar from "../components/Navbar"
 
 const JobDetail = () => {
