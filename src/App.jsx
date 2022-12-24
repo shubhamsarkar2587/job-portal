@@ -1,8 +1,9 @@
+import JobDetail from "./pages/JobDetail";
 
 function App() {
   return (
-    <div className="App">
-      fdfdf
+    <div className="app w-screen h-f">
+      <JobDetail />
     </div>
   );
 }
