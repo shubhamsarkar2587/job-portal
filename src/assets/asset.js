@@ -9,6 +9,10 @@ import back_arrow from './png/back_arrow.png';
 import image1 from './png/image1.png';
 import share from './png/share.png';
 import bookmark from './png/bookmark.png';
+import skill from './png/skill.png';
+import star from './png/star.png';
+import rate from './png/rate.png';
+import location from './png/location.png';
 
 export const pngAsset = {
   global: {
@@ -27,5 +31,11 @@ export const pngAsset = {
     image1,
     share,
     bookmark
+  },
+  jobOverview: {
+    skill,
+    star,
+    rate,
+    location
   }
 }
