@@ -8,19 +8,19 @@ const Navbar = () => {
         <img className="object-contain cursor-pointer " alt="company_name" src={pngAsset.navbar.archslate} />
       </div>
       <div className="flex item-center justify-between">
-        <div className="flex flex-col items-center mx-5 cursor-pointer">
+        <div className="flex flex-col items-center mx-5 cursor-pointer max-md:hidden">
           <img className="object-contain w-7" alt="candidates_img" src={pngAsset.navbar.candidate} />
           <span className="text-xs font-semibold capitalize">candidates</span>
         </div>
-        <div className="flex flex-col items-center mx-5 cursor-pointer">
+        <div className="flex flex-col items-center mx-5 cursor-pointer max-md:hidden">
           <img className="object-contain w-7" alt="candidates_img" src={pngAsset.navbar.company} />
           <span className="text-xs font-semibold capitalize">companies</span>
         </div>
-        <div className="flex flex-col items-center mx-5 cursor-pointer">
+        <div className="flex flex-col items-center mx-5 cursor-pointer max-md:hidden">
           <img className="object-contain w-7" alt="candidates_img" src={pngAsset.navbar.job} />
           <span className="text-xs font-semibold capitalize">jobs</span>
         </div>
-        <div className="flex flex-col items-center mx-5 cursor-pointer">
+        <div className="flex flex-col items-center mx-5 cursor-pointer max-md:hidden">
           <img className="object-contain w-7" alt="candidates_img" src={pngAsset.navbar.notification} />
           <span className="text-xs font-semibold capitalize">notifications</span>
         </div>

@@ -13,7 +13,7 @@ const JobDetail = () => {
         <BackArrow text={'Back to Jobs'} />
         <CompanyDetail />
         <JobOverview />
-        <div className="grid grid-cols-4  gap-5 mb-7">
+        <div className="grid lg:grid-cols-4 gap-5 mb-7">
           <JobDescription />
           <RecruiterDetail />
         </div>

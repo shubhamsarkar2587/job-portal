@@ -2,7 +2,7 @@ import { svgAsset } from "../../assets/asset"
 
 const JobDescription = () => {
   return (
-    <div className="col-span-3 rounded-md bg-white py-10 px-20">
+    <div className="col-span-3 rounded-md bg-white py-10 px-5 lg:px-20 ">
       <div className="mb-5">
         <h6 className="text-lg font-semibold mb-2.5">About this role</h6>
         <p className="font-medium text-slate-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque error sapiente ex, dolore magni architecto quibusdam aspernatur in iste recusandae? Laborum iure dolorum, sequi architecto quam provident, minus aliquid molestiae, voluptatibus incidunt aliquam aut repellendus?</p>

@@ -2,7 +2,7 @@ import { pngAsset } from "../../assets/asset"
 
 const JobOverview = () => {
   return (
-    <div className="w-full grid grid-cols-4 gap-5	mb-7">
+    <div className="w-full grid sm:grid-cols-2 lg:grid-cols-4 gap-5	mb-7">
 
       <div className="bg-white p-5 rounded-md">
         <div className="flex items-center mb-5">
