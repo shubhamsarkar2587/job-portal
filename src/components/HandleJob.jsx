@@ -11,7 +11,7 @@ const HandleJob = ({ selectedJob }) => {
 
   return (
     <div className="w-full py-7 bg-white">
-      <div className="md:w-3/5 m-auto px-20 flex justify-around">
+      <div className="md:w-3/5 m-auto md:px-20 flex justify-around">
         <div
           className="text-xl text-center font-semibold relative cursor-pointer"
           onClick={() => handleJobCategory('')}
