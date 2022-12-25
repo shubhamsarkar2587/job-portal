@@ -1,4 +1,5 @@
 import HandleJob from "../components/HandleJob"
+import JobInterest from "../components/JobInterest"
 import Navbar from "../components/Navbar"
 
 const SearchJob = () => {
@@ -7,6 +8,7 @@ const SearchJob = () => {
       <Navbar />
       <div className="">
         <HandleJob />
+        <JobInterest />
       </div>
     </>
   )

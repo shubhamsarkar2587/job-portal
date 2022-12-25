@@ -1,11 +1,14 @@
+import { Link } from "react-router-dom";
 import { pngAsset } from "../assets/asset";
 
 const Navbar = () => {
   return (
     <div className="py-2.5 px-6 flex items-center justify-between bg-white shadow-sm mb-1">
       <div className="flex">
-        <img className="mr-3 object-contain cursor-pointer" alt="logo" src={pngAsset.navbar.logo} />
-        <img className="object-contain cursor-pointer " alt="company_name" src={pngAsset.navbar.archslate} />
+        <Link to="/" className="flex">
+          <img className="mr-3 object-contain cursor-pointer" alt="logo" src={pngAsset.navbar.logo} />
+          <img className="object-contain cursor-pointer " alt="company_name" src={pngAsset.navbar.archslate} />
+        </Link>
       </div>
       <div className="flex item-center justify-between">
         <div className="flex flex-col items-center mx-5 cursor-pointer max-md:hidden">
