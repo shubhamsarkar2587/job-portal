@@ -7,6 +7,9 @@ import notification from './png/notification.png';
 import user from './png/user.png';
 import back_arrow from './png/back_arrow.png';
 import image1 from './png/image1.png';
+import image2 from './png/image2.png';
+import image3 from './png/image3.png';
+import image4 from './png/image4.png';
 import share from './png/share.png';
 import bookmark from './png/bookmark.png';
 import skill from './png/skill.png';
@@ -34,6 +37,9 @@ export const pngAsset = {
   },
   CompanyDetail: {
     image1,
+    image2,
+    image3,
+    image4,
     share,
     bookmark
   },

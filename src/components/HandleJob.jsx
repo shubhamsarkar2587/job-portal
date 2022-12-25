@@ -1,10 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from "react-router-dom";
+
 
 const HandleJob = ({ selectedJob }) => {
+  const navigate = useNavigate();
+
+  const handleJobCategory = (jobPage) => {
+    navigate(`/${jobPage}`);
+  }
+
   return (
     <div className="w-full py-7 bg-white">
       <div className="md:w-3/5 m-auto px-20 flex justify-around">
-        <div className="text-xl text-center font-semibold relative cursor-pointer">
+        <div
+          className="text-xl text-center font-semibold relative cursor-pointer"
+          onClick={() => handleJobCategory('')}
+        >
           <span className="text-[#0F1521] text-lg font-semibold">Search Jobs</span>
           {
             selectedJob === '' || selectedJob === undefined || selectedJob === 'search' ? (
@@ -13,7 +24,10 @@ const HandleJob = ({ selectedJob }) => {
             : null
           }
         </div>
-        <div className="text-xl text-center font-semibold relative cursor-pointer">
+        <div
+          className="text-xl text-center font-semibold relative cursor-pointer"
+          onClick={() => handleJobCategory('applied-job')}
+        >
           <span className="text-[#0F1521] text-lg font-semibold">Applied</span>
           {
             selectedJob === 'applied' ? (
@@ -22,7 +36,10 @@ const HandleJob = ({ selectedJob }) => {
             : null
           }
         </div>
-        <div className="text-xl text-center font-semibold relative cursor-pointer">
+        <div
+          className="text-xl text-center font-semibold relative cursor-pointer"
+          onClick={() => handleJobCategory('save-job')}
+        >
           <span className="text-[#0F1521] text-lg font-semibold">Saved Jobs</span>
           {
             selectedJob === 'save' ? (
