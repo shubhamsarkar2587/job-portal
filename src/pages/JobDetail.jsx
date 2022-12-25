@@ -10,6 +10,7 @@ const JobDetail = () => {
     <>
       <Navbar />
       <div className="md:w-4/5 xl:w-3/4 m-auto">
+        
         <BackArrow text={'Back to Jobs'} />
         <CompanyDetail />
         <JobOverview />
