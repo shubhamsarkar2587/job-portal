@@ -17,7 +17,7 @@ const JobInterest = () => {
 
   return (
     <div className="md:w-4/5 xl:w-3/4 m-auto flex flex-col items-center justify-center py-8">
-      <div className="text-lg font-semibold mb-5">What type of jobs interested you?</div>
+      <div className="text-lg font-semibold mb-5">What types of jobs interest you?</div>
       <div className="flex items-center mb-7">
         <span className={`text-2xl font-bold subpixel-antialiased ${fullTime ? 'text-gray-300' : 'text-gray-700'}`}>Full Time</span>
         <label class="inline-flex relative items-center cursor-pointer mx-5">
