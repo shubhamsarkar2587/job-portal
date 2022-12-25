@@ -13,6 +13,11 @@ import skill from './png/skill.png';
 import star from './png/star.png';
 import rate from './png/rate.png';
 import location from './png/location.png';
+import hr_image from './png/hr_image.png';
+
+import mail from './svg/mail.svg';
+import starSvg from './svg/star.svg';
+import shareSvg from './svg/share.svg';
 
 export const pngAsset = {
   global: {
@@ -37,5 +42,18 @@ export const pngAsset = {
     star,
     rate,
     location
+  },
+  recruiterDetail: {
+    hr_image
+  }
+}
+
+export const svgAsset = {
+  jobOverview: {
+    star: starSvg,
+    share: shareSvg
+  },
+  recruiterDetail: {
+    mail,
   }
 }

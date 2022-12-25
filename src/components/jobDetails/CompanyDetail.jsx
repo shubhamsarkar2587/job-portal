@@ -9,11 +9,11 @@ const CompanyDetail = () => {
           <div className="flex flex-col py-5">
             <h1 className="text-4xl font-bold mb-3.5">Architectural Designer</h1>
             <p className="text-xl font-normal mb-2.5">Black Mountain Architecture</p>
-            <span className="text-lg font-medium">Posted 13/01/1999</span>
+            <span className="text-lg font-medium">Posted 13/01/2023</span>
           </div>
         </div>
         <div className="flex">
-          <span className="px-5 py-1.5 bg-black text-white text-center font-semibold rounded-3xl mr-4">Architecture</span>
+          <span className="px-5 py-1.5 bg-[#0F1521] text-white text-center font-semibold rounded-3xl mr-4">Architecture</span>
           <span className="px-5 py-1.5 bg-[#E7FECC] text-center font-semibold rounded-3xl mr-4">Freelance</span>
           <span className="px-5 py-1.5 bg-[#CCE7FE] text-center font-semibold rounded-3xl">Long-term</span>
         </div>

@@ -10,9 +10,9 @@ const JobOverview = () => {
           <span className="text-lg font-medium">Software Skills</span>
         </div>
         <div className="flex flex-wrap justify-center">
-          <span className="bg-black rounded-3xl text-white px-3 py-1 mb-2.5 mr-2.5">Tailwind Css</span>
-          <span className="bg-black rounded-3xl text-white px-3 py-1 mb-2.5 mr-2.5">Sketchup</span>
-          <span className="bg-black rounded-3xl text-white px-3 py-1 mb-2.5 mr-2.5">VectorWorks</span>
+          <span className="bg-[#0F1521] rounded-3xl text-white px-3 py-1 mb-2.5 mr-2.5">Tailwind Css</span>
+          <span className="bg-[#0F1521] rounded-3xl text-white px-3 py-1 mb-2.5 mr-2.5">Sketchup</span>
+          <span className="bg-[#0F1521] rounded-3xl text-white px-3 py-1 mb-2.5 mr-2.5">VectorWorks</span>
         </div>
       </div>
 
